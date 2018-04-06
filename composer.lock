@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cf9983cca33852821750c07a3202b4a2",
+    "packages": [
+        {
+            "name": "phpdk/pdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-dk/pdk.git",
+                "reference": "685af13b1f0fba401a6bb840b1e2e0ec73ffca28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-dk/pdk/zipball/685af13b1f0fba401a6bb840b1e2e0ec73ffca28",
+                "reference": "685af13b1f0fba401a6bb840b1e2e0ec73ffca28",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpdk\\": "src",
+                    "phpdk\\tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dima",
+                    "email": "dimajolkin@gmail.com"
+                }
+            ],
+            "description": "php development kit",
+            "keywords": [
+                "development",
+                "kit",
+                "php"
+            ],
+            "time": "2018-03-11T13:02:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "phpdk/pdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "phpdk/osm-static-image",
+    "authors": [
+        {
+            "name": "dimajolkin",
+            "email": "dimajolkin@rambler.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "pdk\\osmStaticMap\\": "src"
+        }
+    },
+    "require": {
+        "phpdk/pdk": "dev-master"
+    }
+}
